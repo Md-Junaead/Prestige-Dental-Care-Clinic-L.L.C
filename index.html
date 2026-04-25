@@ -1,0 +1,756 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Prestige Dental Care Clinic L.L.C – Your Smile, Our Priority</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== LOADER ===== -->
+  <div class="loader" id="loader">
+    <div class="loader-inner">
+      <svg class="loader-tooth" viewBox="0 0 60 70" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M10 10 C10 5 15 2 20 5 C23 7 27 8 30 8 C33 8 37 7 40 5 C45 2 50 5 50 10 C50 20 55 35 52 50 C50 58 45 68 42 68 C39 68 37 60 35 52 C33 44 31 40 30 40 C29 40 27 44 25 52 C23 60 21 68 18 68 C15 68 10 58 8 50 C5 35 10 20 10 10Z" fill="url(#toothGrad)" />
+        <defs>
+          <linearGradient id="toothGrad" x1="0" y1="0" x2="60" y2="70" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#0EA5E9"/>
+            <stop offset="100%" stop-color="#14B8A6"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <p class="loader-text">Prestige Dental Care</p>
+    </div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#hero" class="nav-logo">
+        <svg width="32" height="36" viewBox="0 0 60 70" fill="none">
+          <path d="M10 10 C10 5 15 2 20 5 C23 7 27 8 30 8 C33 8 37 7 40 5 C45 2 50 5 50 10 C50 20 55 35 52 50 C50 58 45 68 42 68 C39 68 37 60 35 52 C33 44 31 40 30 40 C29 40 27 44 25 52 C23 60 21 68 18 68 C15 68 10 58 8 50 C5 35 10 20 10 10Z" fill="url(#navGrad)" />
+          <defs>
+            <linearGradient id="navGrad" x1="0" y1="0" x2="60" y2="70" gradientUnits="userSpaceOnUse">
+              <stop offset="0%" stop-color="#0EA5E9"/>
+              <stop offset="100%" stop-color="#14B8A6"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <span>Prestige <em>Dental</em></span>
+      </a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#doctor">Doctor</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#appointment" class="nav-cta">Book Now</a>
+      <button class="nav-hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg-shapes">
+      <div class="shape shape-1"></div>
+      <div class="shape shape-2"></div>
+      <div class="shape shape-3"></div>
+    </div>
+    <div class="hero-container">
+      <div class="hero-text">
+        <span class="hero-badge reveal">✦ Sharjah's Trusted Dental Clinic</span>
+        <h1 class="hero-headline reveal">Your Smile,<br /><em>Our Priority</em></h1>
+        <p class="hero-sub reveal">Advanced, compassionate dental care for every stage of life — from routine cleanings to complete smile transformations. Experience dentistry that truly cares.</p>
+        <div class="hero-actions reveal">
+          <a href="#appointment" class="btn-primary">Book Appointment <span class="btn-arrow">→</span></a>
+          <a href="#services" class="btn-ghost">Explore Services</a>
+        </div>
+        <div class="hero-stats reveal">
+          <div class="stat">
+            <strong>10+</strong>
+            <span>Years of Care</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>5000+</strong>
+            <span>Happy Patients</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat">
+            <strong>15+</strong>
+            <span>Procedures</span>
+          </div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="hero-image-frame">
+          <div class="hero-image-inner">
+            <svg class="hero-illustration" viewBox="0 0 400 440" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Doctor silhouette illustration -->
+              <circle cx="200" cy="140" r="75" fill="url(#heroGrad1)" opacity="0.15"/>
+              <circle cx="200" cy="130" r="58" fill="url(#heroGrad1)" opacity="0.25"/>
+              <!-- Head -->
+              <ellipse cx="200" cy="110" rx="45" ry="50" fill="#E0F2FE"/>
+              <!-- Body / coat -->
+              <path d="M140 220 C140 190 160 175 180 170 L200 165 L220 170 C240 175 260 190 260 220 L265 320 L135 320 Z" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+              <!-- Coat lapels / stethoscope hint -->
+              <path d="M180 170 L185 200 L200 210 L215 200 L220 170" fill="#F0F9FF" stroke="#BAE6FD" stroke-width="1.5"/>
+              <!-- Face features -->
+              <ellipse cx="185" cy="105" rx="5" ry="6" fill="#93C5FD"/>
+              <ellipse cx="215" cy="105" rx="5" ry="6" fill="#93C5FD"/>
+              <path d="M188 125 Q200 133 212 125" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <!-- Tooth shape in hands -->
+              <g transform="translate(175, 245)">
+                <path d="M5 5 C5 2 8 1 10 3 C11.5 4 13.5 4.5 15 4.5 C16.5 4.5 18.5 4 20 3 C22 1 25 2 25 5 C25 10 27 17 26 24 C25 28 22 33 20.5 33 C19 33 18 29 17 25 C16 21 15.5 19 15 19 C14.5 19 14 21 13 25 C12 29 11 33 9.5 33 C8 33 5 28 4 24 C3 17 5 10 5 5Z" fill="white" stroke="url(#toothStroke)" stroke-width="1.5"/>
+                <defs>
+                  <linearGradient id="toothStroke" x1="0" y1="0" x2="30" y2="35" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#0EA5E9"/>
+                    <stop offset="100%" stop-color="#14B8A6"/>
+                  </linearGradient>
+                </defs>
+              </g>
+              <!-- Arms -->
+              <path d="M140 220 L120 290 L155 295 L165 240" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1.5"/>
+              <path d="M260 220 L280 290 L245 295 L235 240" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1.5"/>
+              <!-- Hair -->
+              <path d="M155 90 Q155 55 200 55 Q245 55 245 90 Q240 70 200 68 Q160 70 155 90Z" fill="#94A3B8"/>
+              <defs>
+                <linearGradient id="heroGrad1" x1="0" y1="0" x2="400" y2="440" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#0EA5E9"/>
+                  <stop offset="100%" stop-color="#14B8A6"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+          <div class="hero-badge-float badge-top">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="#FBBF24"/></svg>
+            <div><strong>4.9 Rating</strong><span>200+ Reviews</span></div>
+          </div>
+          <div class="hero-badge-float badge-bottom">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none"><path d="M9 12L11 14L15 10M21 12C21 16.9706 16.9706 21 12 21C7.02944 21 3 16.9706 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12Z" stroke="#14B8A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            <div><strong>ISO Certified</strong><span>Clinic</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-cue">
+      <span>Scroll to explore</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ===== TRUST BAR ===== -->
+  <section class="trust-bar">
+    <div class="trust-container">
+      <div class="trust-item reveal">
+        <div class="trust-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Certified Dentists</strong>
+          <span>Licensed & accredited professionals</span>
+        </div>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item reveal">
+        <div class="trust-icon">
+          <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>10+ Years Experience</strong>
+          <span>Trusted by thousands of families</span>
+        </div>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item reveal">
+        <div class="trust-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Modern Equipment</strong>
+          <span>Latest dental technology</span>
+        </div>
+      </div>
+      <div class="trust-divider"></div>
+      <div class="trust-item reveal">
+        <div class="trust-icon">
+          <svg viewBox="0 0 24 24" fill="none"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        </div>
+        <div class="trust-text">
+          <strong>Patient-First Care</strong>
+          <span>Comfort is our top priority</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-image-wrap">
+            <div class="about-image-placeholder">
+              <svg viewBox="0 0 320 380" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="320" height="380" rx="20" fill="url(#aboutBg)"/>
+                <circle cx="160" cy="130" r="65" fill="white" opacity="0.15"/>
+                <!-- clinic interior suggestion -->
+                <rect x="40" y="200" width="240" height="140" rx="8" fill="white" opacity="0.1"/>
+                <rect x="60" y="220" width="80" height="100" rx="6" fill="white" opacity="0.15"/>
+                <rect x="160" y="235" width="100" height="85" rx="6" fill="white" opacity="0.15"/>
+                <path d="M80 260 L100 260 L100 320 L80 320Z" fill="white" opacity="0.2"/>
+                <circle cx="160" cy="130" r="45" fill="white" opacity="0.2"/>
+                <text x="160" y="138" text-anchor="middle" fill="white" font-size="40" opacity="0.9">🦷</text>
+                <text x="160" y="310" text-anchor="middle" fill="white" font-size="13" font-family="DM Sans" opacity="0.8">Prestige Dental Care Clinic</text>
+                <defs>
+                  <linearGradient id="aboutBg" x1="0" y1="0" x2="320" y2="380" gradientUnits="userSpaceOnUse">
+                    <stop offset="0%" stop-color="#0284C7"/>
+                    <stop offset="100%" stop-color="#0D9488"/>
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+            <div class="about-accent-card">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="#0EA5E9" opacity="0.2" stroke="#0EA5E9" stroke-width="2" stroke-linejoin="round"/></svg>
+              <p><strong>Affordable Pricing</strong><br/>World-class care without the hefty price tag</p>
+            </div>
+          </div>
+        </div>
+        <div class="about-content reveal">
+          <span class="section-label">About Our Clinic</span>
+          <h2>Dedicated to Excellence in <em>Dental Health</em></h2>
+          <p class="about-lead">Prestige Dental Care Clinic L.L.C is a dental facility dedicated to providing exceptional dental care to patients of all ages in Sharjah.</p>
+          <p>Our team of highly trained and experienced dental professionals offers a comprehensive range of services, including preventive, restorative, and cosmetic treatments. We pride ourselves on delivering personalized care in a comfortable and welcoming environment.</p>
+          <p>We are committed to using the latest technology and techniques to ensure our patients receive the highest standard of care at an affordable price.</p>
+          <div class="about-pillars">
+            <div class="pillar">
+              <div class="pillar-icon">🎯</div>
+              <div>
+                <strong>Our Mission</strong>
+                <p>Provide high-quality dental care in a comfortable and welcoming environment, using the latest technology for the best possible outcomes.</p>
+              </div>
+            </div>
+            <div class="pillar">
+              <div class="pillar-icon">🌟</div>
+              <div>
+                <strong>Our Vision</strong>
+                <p>To be recognized as a leading dental practice in Sharjah, committed to excellence in patient care and lasting relationships.</p>
+              </div>
+            </div>
+          </div>
+          <a href="#appointment" class="btn-primary">Schedule a Visit <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">What We Offer</span>
+        <h2>Comprehensive <em>Dental Services</em></h2>
+        <p>From routine check-ups to advanced cosmetic treatments — all under one roof.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8 2 5 5 5 9c0 2.5 1.5 4.5 3 6l1 5h6l1-5c1.5-1.5 3-3.5 3-6 0-4-3-7-7-7z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Teeth Cleaning</h3>
+          <p>Professional scaling & polishing every six months keeps your smile healthy and bright. Our tools clean what your brush can't.</p>
+          <span class="service-tag">Preventive</span>
+        </div>
+        <div class="service-card reveal" data-delay="80">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v3M12 19v3M4.22 4.22l2.12 2.12M17.66 17.66l2.12 2.12M2 12h3M19 12h3M4.22 19.78l2.12-2.12M17.66 6.34l2.12-2.12" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Laser Whitening</h3>
+          <p>Brighten your smile by several shades in a single session. Safe, effective, and virtually painless laser teeth whitening.</p>
+          <span class="service-tag">Cosmetic</span>
+        </div>
+        <div class="service-card reveal" data-delay="160">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10z" stroke="currentColor" stroke-width="1.8"/><path d="M8 12h8M12 8v8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Dental Veneers</h3>
+          <p>Transform crooked or discoloured teeth with ultra-thin porcelain veneers. Simple, painless and instantly life-changing.</p>
+          <span class="service-tag">Cosmetic</span>
+        </div>
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M15 7H9a2 2 0 00-2 2v8a2 2 0 002 2h6a2 2 0 002-2V9a2 2 0 00-2-2z" stroke="currentColor" stroke-width="1.8"/><path d="M9 7V5a3 3 0 016 0v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Root Canal</h3>
+          <p>Relieve severe tooth pain with expert root canal treatment. We remove infected tissue and restore comfort with precision care.</p>
+          <span class="service-tag">Restorative</span>
+        </div>
+        <div class="service-card reveal" data-delay="80">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M9 3H5a2 2 0 00-2 2v4m6-6h10a2 2 0 012 2v4M9 3v18m0 0h10a2 2 0 002-2v-4M9 21H5a2 2 0 01-2-2v-4m0 0h18" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Braces & Invisalign</h3>
+          <p>Straighten teeth with traditional braces or virtually invisible Invisalign aligners. Achieve the smile you've always dreamed of.</p>
+          <span class="service-tag">Orthodontics</span>
+        </div>
+        <div class="service-card reveal" data-delay="160">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M12 9v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </div>
+          <h3>Fillings & Crowns</h3>
+          <p>Restore decayed or damaged teeth with tooth-coloured fillings and precisely crafted dental crowns. Natural-looking, long-lasting.</p>
+          <span class="service-tag">Restorative</span>
+        </div>
+        <div class="service-card reveal" data-delay="0">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="9" cy="7" r="4" stroke="currentColor" stroke-width="1.8"/><path d="M23 21v-2a4 4 0 00-3-3.87M16 3.13a4 4 0 010 7.75" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+          </div>
+          <h3>Dentures</h3>
+          <p>Replace missing teeth with natural-looking removable or fixed dentures. Restore your full smile and confidence.</p>
+          <span class="service-tag">Restorative</span>
+        </div>
+        <div class="service-card reveal" data-delay="80">
+          <div class="service-icon">
+            <svg viewBox="0 0 24 24" fill="none"><path d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0z" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><circle cx="12" cy="12" r="3" stroke="currentColor" stroke-width="1.8"/></svg>
+          </div>
+          <h3>Extractions</h3>
+          <p>Safe, comfortable tooth extractions performed by experienced dentists using modern anaesthesia techniques to ensure zero pain.</p>
+          <span class="service-tag">Oral Surgery</span>
+        </div>
+        <div class="service-card service-card--cta reveal" data-delay="160">
+          <div class="service-cta-inner">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" fill="white" opacity="0.2" stroke="white" stroke-width="2" stroke-linejoin="round"/></svg>
+            <h3>Not sure what you need?</h3>
+            <p>Book a consultation and our dentists will guide you to the perfect treatment.</p>
+            <a href="#appointment" class="btn-white">Book Free Consult →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-content reveal">
+          <span class="section-label">Why Choose Us</span>
+          <h2>Dentistry You Can <em>Trust</em></h2>
+          <p>We go beyond treating teeth — we build relationships with our patients based on trust, transparency, and genuine care.</p>
+          <ul class="why-list">
+            <li class="reveal">
+              <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+              <div>
+                <strong>Experienced Doctors</strong>
+                <p>Our dental team brings years of expertise in a wide range of specialties — from cosmetics to complex oral surgeries.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></div>
+              <div>
+                <strong>Affordable Pricing</strong>
+                <p>World-class dental care shouldn't break the bank. We offer transparent, competitive pricing with flexible payment options.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+              <div>
+                <strong>Latest Technology</strong>
+                <p>From digital X-rays to laser treatments — we invest in state-of-the-art equipment for safer, faster, better results.</p>
+              </div>
+            </li>
+            <li class="reveal">
+              <div class="why-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></div>
+              <div>
+                <strong>Patient Comfort</strong>
+                <p>We've designed every detail of our clinic experience to minimise anxiety and maximise your comfort — from waiting room to treatment.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+        <div class="why-visual reveal">
+          <div class="why-card-stack">
+            <div class="why-card why-card-main">
+              <div class="wcard-header">
+                <div class="wcard-avatar">
+                  <svg viewBox="0 0 24 24" fill="none"><path d="M20 7H4a2 2 0 00-2 2v6a2 2 0 002 2h16a2 2 0 002-2V9a2 2 0 00-2-2z" stroke="#0EA5E9" stroke-width="2"/><path d="M12 12h.01" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round"/></svg>
+                </div>
+                <span>Treatment Plan</span>
+              </div>
+              <p>Personalised dental care roadmap crafted just for you.</p>
+              <div class="wcard-progress">
+                <div class="prog-item"><span>Consultation</span><div class="prog-bar"><div style="width:100%"></div></div></div>
+                <div class="prog-item"><span>Diagnosis</span><div class="prog-bar"><div style="width:85%"></div></div></div>
+                <div class="prog-item"><span>Treatment</span><div class="prog-bar"><div style="width:60%"></div></div></div>
+                <div class="prog-item"><span>Follow-up</span><div class="prog-bar"><div style="width:30%"></div></div></div>
+              </div>
+            </div>
+            <div class="why-card why-card-stat">
+              <strong>98%</strong>
+              <p>Patient<br/>Satisfaction</p>
+              <div class="stat-stars">★★★★★</div>
+            </div>
+            <div class="why-card why-card-hours">
+              <svg viewBox="0 0 24 24" fill="none" width="22" height="22"><circle cx="12" cy="12" r="10" stroke="#14B8A6" stroke-width="2"/><path d="M12 6v6l4 2" stroke="#14B8A6" stroke-width="2" stroke-linecap="round"/></svg>
+              <p><strong>Open 6 Days</strong><br/>Sat–Thu, 9:30am–10pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== DOCTOR ===== -->
+  <section class="doctor" id="doctor">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Meet the Team</span>
+        <h2>Led by <em>Experienced Professionals</em></h2>
+      </div>
+      <div class="doctor-card reveal">
+        <div class="doctor-image-wrap">
+          <div class="doctor-image-placeholder">
+            <svg viewBox="0 0 280 320" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="280" height="320" rx="16" fill="url(#docBg)"/>
+              <circle cx="140" cy="105" r="60" fill="white" opacity="0.15"/>
+              <ellipse cx="140" cy="95" rx="42" ry="46" fill="#DBEAFE"/>
+              <path d="M98 180 C98 155 115 143 130 140 L140 136 L150 140 C165 143 182 155 182 180 L188 300 L92 300 Z" fill="white" stroke="#E2E8F0" stroke-width="2"/>
+              <path d="M130 140 L133 165 L140 172 L147 165 L150 140" fill="#EFF6FF" stroke="#BFDBFE" stroke-width="1.5"/>
+              <ellipse cx="127" cy="88" rx="5" ry="6" fill="#93C5FD"/>
+              <ellipse cx="153" cy="88" rx="5" ry="6" fill="#93C5FD"/>
+              <path d="M129 110 Q140 118 151 110" stroke="#5EEAD4" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <path d="M98 75 Q98 45 140 45 Q182 45 182 75 Q178 58 140 56 Q102 58 98 75Z" fill="#94A3B8"/>
+              <!-- stethoscope -->
+              <path d="M123 170 Q115 190 118 200 Q121 210 130 210 Q139 210 139 200 L139 220" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <circle cx="139" cy="224" r="5" fill="#0EA5E9"/>
+              <defs>
+                <linearGradient id="docBg" x1="0" y1="0" x2="280" y2="320" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#0EA5E9"/>
+                  <stop offset="100%" stop-color="#14B8A6"/>
+                </linearGradient>
+              </defs>
+            </svg>
+          </div>
+        </div>
+        <div class="doctor-info">
+          <span class="section-label">Lead Dentist</span>
+          <h3>Dr. [Dentist Name]</h3>
+          <p class="doctor-specialty">BDS, MDS – General & Cosmetic Dentistry</p>
+          <p class="doctor-bio">With over a decade of experience in comprehensive dental care, our lead dentist brings both technical mastery and a warm, patient-first approach to every treatment. Trained in the latest cosmetic and restorative techniques, they are committed to helping every patient achieve a healthy, confident smile.</p>
+          <div class="doctor-credentials">
+            <div class="cred-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" stroke="#0EA5E9" stroke-width="2" stroke-linejoin="round"/></svg>
+              <span>Licensed by UAE Dental Authority</span>
+            </div>
+            <div class="cred-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" stroke="#14B8A6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>10+ Years Clinical Experience</span>
+            </div>
+            <div class="cred-item">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M12 14l9-5-9-5-9 5 9 5z" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M12 14l6.16-3.422a12.083 12.083 0 01.665 6.479A11.952 11.952 0 0012 20.055a11.952 11.952 0 00-6.824-2.998 12.078 12.078 0 01.665-6.479L12 14z" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>Specialist in Cosmetic Dentistry</span>
+            </div>
+          </div>
+          <a href="#appointment" class="btn-primary">Book with Our Doctor <span class="btn-arrow">→</span></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Patient Stories</span>
+        <h2>What Our Patients <em>Say</em></h2>
+      </div>
+      <div class="testimonials-slider reveal">
+        <div class="slider-track" id="sliderTrack">
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"The best dental experience I've ever had. The team is so professional and gentle. My teeth cleaning was painless and thorough. Highly recommended!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">AM</div>
+              <div>
+                <strong>Ahmed M.</strong>
+                <span>Sharjah, UAE</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"I was terrified of dentists but Prestige Dental changed everything. They were so patient and caring. My root canal was completely painless! Amazing clinic."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">FA</div>
+              <div>
+                <strong>Fatima A.</strong>
+                <span>Muwaileh, Sharjah</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Got my veneers done here and I couldn't be happier. The results are stunning — so natural looking. The whole process was smooth and professional."</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">RK</div>
+              <div>
+                <strong>Rania K.</strong>
+                <span>Ajman, UAE</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"Affordable and high quality — a rare combination. The laser whitening was incredible, finished in under an hour and my smile is 10 shades brighter!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">OB</div>
+              <div>
+                <strong>Omar B.</strong>
+                <span>Dubai, UAE</span>
+              </div>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="stars">★★★★★</div>
+            <p>"I've been bringing my entire family here for two years. The kids love the friendly staff and I love how thorough and modern the clinic is. 10/10!"</p>
+            <div class="reviewer">
+              <div class="reviewer-avatar">SH</div>
+              <div>
+                <strong>Sara H.</strong>
+                <span>Sharjah, UAE</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="slider-controls">
+          <button class="slider-btn" id="prevBtn" aria-label="Previous">←</button>
+          <div class="slider-dots" id="sliderDots"></div>
+          <button class="slider-btn" id="nextBtn" aria-label="Next">→</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== APPOINTMENT CTA ===== -->
+  <section class="appointment-cta" id="appointment">
+    <div class="cta-bg-shapes">
+      <div class="cta-shape-1"></div>
+      <div class="cta-shape-2"></div>
+    </div>
+    <div class="container">
+      <div class="cta-grid">
+        <div class="cta-content reveal">
+          <span class="section-label light">Ready to Begin?</span>
+          <h2>Book Your Appointment <em>Today</em></h2>
+          <p>Don't wait for dental problems to worsen. Schedule your visit now and take the first step toward a healthier, more beautiful smile.</p>
+          <div class="cta-contact-items">
+            <a href="tel:065359070" class="cta-contact-item">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.58 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012.48 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.72 6.72l1.28-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>06 535 9070</span>
+            </a>
+            <a href="https://wa.me/971565507129" class="cta-contact-item" target="_blank">
+              <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span>WhatsApp Us</span>
+            </a>
+          </div>
+          <div class="cta-timing">
+            <svg viewBox="0 0 24 24" fill="none" width="16" height="16"><circle cx="12" cy="12" r="10" stroke="rgba(255,255,255,0.7)" stroke-width="2"/><path d="M12 6v6l4 2" stroke="rgba(255,255,255,0.7)" stroke-width="2" stroke-linecap="round"/></svg>
+            <span>Sat–Thu: 9:30am–1:00pm & 5:00pm–10:00pm &nbsp;|&nbsp; Friday: By Appointment Only</span>
+          </div>
+        </div>
+        <div class="cta-form-wrap reveal">
+          <div class="cta-form-card">
+            <h3>Request an Appointment</h3>
+            <div class="form-group">
+              <label for="apptName">Full Name</label>
+              <input type="text" id="apptName" placeholder="Your full name" />
+            </div>
+            <div class="form-group">
+              <label for="apptPhone">Phone Number</label>
+              <input type="tel" id="apptPhone" placeholder="+971 XX XXX XXXX" />
+            </div>
+            <div class="form-group">
+              <label for="apptService">Service Needed</label>
+              <select id="apptService">
+                <option value="">Select a service</option>
+                <option>Teeth Cleaning</option>
+                <option>Laser Whitening</option>
+                <option>Dental Veneers</option>
+                <option>Root Canal</option>
+                <option>Braces / Invisalign</option>
+                <option>Fillings & Crowns</option>
+                <option>Dentures</option>
+                <option>Extraction</option>
+                <option>General Consultation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="apptMsg">Additional Notes</label>
+              <textarea id="apptMsg" rows="3" placeholder="Briefly describe your concern..."></textarea>
+            </div>
+            <button class="btn-primary full-width" id="apptSubmit">Confirm Appointment <span class="btn-arrow">→</span></button>
+            <p class="form-note">We'll call you within 24 hours to confirm your slot.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Find Us</span>
+        <h2>Visit Our <em>Clinic</em></h2>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+            </div>
+            <div>
+              <strong>Address</strong>
+              <p>Flat 208, 2nd Floor, Fire Station Road,<br>Abudhabi Building, Muwaileh Commercial,<br>Sharjah, UAE<br><em>Near Muwaileh Bus Terminal Station</em></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.58 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012.48 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.72 6.72l1.28-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <div>
+              <strong>Phone</strong>
+              <p><a href="tel:065359070">06 535 9070</a><br><a href="tel:0565507129">056 550 7129</a></p>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="2"/><path d="M12 6v6l4 2" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <div>
+              <strong>Working Hours</strong>
+              <p>Saturday – Thursday:<br>9:30 AM – 1:00 PM &amp; 5:00 PM – 10:00 PM<br>Friday: By Appointment Only</p>
+            </div>
+          </div>
+          <!-- Simple contact form -->
+          <div class="contact-form-mini">
+            <h4>Send a Message</h4>
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder="Email Address" />
+            </div>
+            <div class="form-group">
+              <textarea rows="3" placeholder="Your message..."></textarea>
+            </div>
+            <button class="btn-primary full-width">Send Message</button>
+          </div>
+        </div>
+        <div class="contact-map reveal">
+          <div class="map-placeholder">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.5!2d55.42!3d25.33!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjXCsDE5JzQ4LjAiTiA1NcKwMjUnMTIuMCJF!5e0!3m2!1sen!2sae!4v1234567890"
+              width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+              title="Prestige Dental Care Clinic Location">
+            </iframe>
+            <div class="map-overlay-badge">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" fill="#0EA5E9" stroke="#0EA5E9" stroke-width="1"/><circle cx="12" cy="10" r="3" fill="white"/></svg>
+              <span>Prestige Dental Care Clinic<br><small>Muwaileh, Sharjah</small></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#hero" class="nav-logo">
+            <svg width="32" height="36" viewBox="0 0 60 70" fill="none">
+              <path d="M10 10 C10 5 15 2 20 5 C23 7 27 8 30 8 C33 8 37 7 40 5 C45 2 50 5 50 10 C50 20 55 35 52 50 C50 58 45 68 42 68 C39 68 37 60 35 52 C33 44 31 40 30 40 C29 40 27 44 25 52 C23 60 21 68 18 68 C15 68 10 58 8 50 C5 35 10 20 10 10Z" fill="url(#footGrad)" />
+              <defs>
+                <linearGradient id="footGrad" x1="0" y1="0" x2="60" y2="70" gradientUnits="userSpaceOnUse">
+                  <stop offset="0%" stop-color="#0EA5E9"/>
+                  <stop offset="100%" stop-color="#14B8A6"/>
+                </linearGradient>
+              </defs>
+            </svg>
+            <span>Prestige <em>Dental</em></span>
+          </a>
+          <p>Your trusted dental care partner in Sharjah — providing exceptional care for every smile.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#" aria-label="Instagram" class="social-link">
+              <svg viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2"/><path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37z" stroke="currentColor" stroke-width="2"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </a>
+            <a href="https://wa.me/971565507129" aria-label="WhatsApp" class="social-link" target="_blank">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-links-col">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#doctor">Our Doctor</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Services</h5>
+          <ul>
+            <li><a href="#services">Teeth Cleaning</a></li>
+            <li><a href="#services">Laser Whitening</a></li>
+            <li><a href="#services">Dental Veneers</a></li>
+            <li><a href="#services">Root Canal</a></li>
+            <li><a href="#services">Braces & Invisalign</a></li>
+            <li><a href="#services">Dental Crowns</a></li>
+          </ul>
+        </div>
+        <div class="footer-links-col">
+          <h5>Contact</h5>
+          <ul class="footer-contact-list">
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2"/></svg>
+              Muwaileh, Sharjah, UAE
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.58 11a19.79 19.79 0 01-3.07-8.67A2 2 0 012.48 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 9.91a16 16 0 006.72 6.72l1.28-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" stroke="currentColor" stroke-width="2"/></svg>
+              <a href="tel:065359070">06 535 9070</a>
+            </li>
+            <li>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z" stroke="currentColor" stroke-width="2"/></svg>
+              <a href="https://wa.me/971565507129" target="_blank">WhatsApp</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Prestige Dental Care Clinic L.L.C. All rights reserved.</p>
+        <p>Muwaileh Commercial, Sharjah, UAE</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to top -->
+  <button class="back-to-top" id="backToTop" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
